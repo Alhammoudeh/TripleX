@@ -1,0 +1,25 @@
+Definitions:
+
+	Preprocessor Directive: Execute existing code from the library before running our main function.
+
+	Main function: Entry point of any program that allows us to execute the program itself. Every C++ Program has a main function.
+
+	Expression Statements: Expressions that end with a semicolon i.e. sum = 3;
+
+	Declaration Statements: When we declaring something i.e. initializing a varbiable for the first time.
+
+	Return Statement: Returns a value in the function.
+
+
+Getting User Input:
+	
+	std::cout << "Hello, World!"
+		- cout: character output
+		- << : insertion operator
+
+	std:: cin >> PlayerGuess;
+		- cin: Character Input
+		- >>: Extraction Operator
+		- PlayerGuess: Extract from input stream and assign to variable: PlayerGuess
+	Characters like 'x' get converted to 0 with integers
+	Chars like 'x' will halt cin from working until reset
